@@ -1,8 +1,17 @@
-# React + Vite
+# Simple To-Do App
+This is a simple to-do application made using Vite and ReactJS
+The screen features two columns containing complete and incomplete tasks, respectively.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Planned Commits:
+- [x] Click on the tick button to complete the task
+- [x] Clear all tasks and delete tasks
+- [x] All tasks are sorted in chronological order
+- [x] Drag the task into the complete or incomplete zone to mark it accordingly
+- [x] Adding a completed task already removes it from the completed list
+- [ ] Improved Styling
+- [ ] Reordering Task Support
+- [ ] Task Lists
+- [ ] Tasks stored locally as cookies
+- [ ] Schedule one-time and recurring tasks
+- [ ] Sync with a custom calendar
+- [ ] Alarm System
