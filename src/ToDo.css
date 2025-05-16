@@ -1,3 +1,7 @@
+*{
+    font-family: 'Poppins';
+}
+
 h1{
     margin: 10px auto;
     width: fit-content;
@@ -5,10 +9,46 @@ h1{
 
 .text-box{
     margin: 20px auto;
-    width: fit-content;
+    width: 300px;
+    /* border: 1px solid black; */
+    font-family: poppins;
+    /* padding: 0 10px; */
+    border-bottom: 1px solid gray;
+    border-radius: 30px;
+}
+
+.text-box > input{
+    height: 30px;
+    border: none;
+    width: 276px;
+    padding-left: 20px;
+    /* border: 1px solid blue; */
+    border-radius: 30px;
+}
+
+.text-box > button{
+    position: absolute;
+    height: 30px;
+    border: none;
+    width: 30px;
+    background-color: #fff;
+    margin-left: -31px;
+    margin-top: 1px;
+    border-radius: 100%;
+    padding: 0;
+    /* padding-top: -10px; */
+    font-size: 15px;
+    font-family: Poppins;
+    /* font-weight: bold; */
+    transition: 500ms;
+}
+
+.text-box > button:hover{
+    filter: invert(1);
 }
 
 .tasks-view{
+
     background-color: blue;
     color: white;
     margin: auto;
