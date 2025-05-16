@@ -11,7 +11,7 @@ Planned Commits:
 - [ ] Improved Styling
 - [ ] Reordering Task Support
 - [ ] Task Lists
-- [ ] Tasks stored locally as cookies
+- [x] Tasks stored locally as cookies
 - [ ] Schedule one-time and recurring tasks
 - [ ] Sync with a custom calendar
 - [ ] Alarm System
